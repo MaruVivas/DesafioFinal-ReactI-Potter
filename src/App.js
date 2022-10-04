@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css';
+import MiApi from './components/MiApi/MiApi.jsx'
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <img src="https://easydrawingguides.com/wp-content/uploads/2020/09/Hogwarts-Crest-Step-10.png"></img>
+        <h1>Registros de Hogwarts</h1>
+        <img src="https://easydrawingguides.com/wp-content/uploads/2020/09/Hogwarts-Crest-Step-10.png"></img>
       </header>
+      <MiApi></MiApi>
     </div>
   );
 }
